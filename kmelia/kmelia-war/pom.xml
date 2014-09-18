@@ -27,8 +27,8 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
+      <groupId>javax.servlet.jsp.jstl</groupId>
+      <artifactId>javax.servlet.jsp.jstl-api</artifactId>
     </dependency>
     <dependency>
       <groupId>com.silverpeas.core</groupId>
@@ -53,10 +53,12 @@
       <groupId>com.lowagie</groupId>
       <artifactId>itext</artifactId>
     </dependency>
+    <!--
     <dependency>
       <groupId>net.sf.jtidy</groupId>
       <artifactId>jtidy</artifactId>
     </dependency>
+    -->
     <dependency>
       <groupId>com.silverpeas.core.ejb-core</groupId>
       <artifactId>publication</artifactId>

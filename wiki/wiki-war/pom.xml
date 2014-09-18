@@ -23,11 +23,13 @@
       <artifactId>xmlrpc</artifactId>
       <scope>provided</scope>
     </dependency>
+    <!--
     <dependency>
       <groupId>sandler</groupId>
       <artifactId>sandler</artifactId>
       <scope>provided</scope>
     </dependency>
+    -->
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>wiki-jar</artifactId>
@@ -41,8 +43,8 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
+      <groupId>javax.servlet.jsp.jstl</groupId>
+      <artifactId>javax.servlet.jsp.jstl-api</artifactId>
     </dependency>
     <dependency>
       <groupId>com.silverpeas.core</groupId>

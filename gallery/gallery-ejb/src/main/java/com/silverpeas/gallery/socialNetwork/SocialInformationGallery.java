@@ -28,7 +28,7 @@ import com.silverpeas.util.StringUtil;
 
 import java.util.Date;
 
-import org.apache.commons.lang.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public class SocialInformationGallery implements SocialInformation {
 

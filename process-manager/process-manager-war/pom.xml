@@ -20,8 +20,8 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
+      <groupId>javax.servlet.jsp.jstl</groupId>
+      <artifactId>javax.servlet.jsp.jstl-api</artifactId>
     </dependency>
     <dependency>
       <groupId>com.silverpeas.core</groupId>
@@ -34,6 +34,13 @@
       <artifactId>process-manager-ejb</artifactId>
       <classifier>client</classifier>
       <version>${project.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>clipboard</artifactId>
+      <version>${core.version}</version>
+      <classifier>client</classifier>
       <scope>provided</scope>
     </dependency>
     <dependency>
